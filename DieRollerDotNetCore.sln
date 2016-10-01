@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF85827B-9A07-4588-B9D7-F50624BDB03D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFAE8E0A-144E-4473-986B-6F68C9B84719}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DieRollerLibrary", "src\DieRollerLibrary\DieRollerLibrary.xproj", "{1FCF90CF-91B2-4A35-A7A8-B6FB61EA9BA2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DieRoller.Tests", "src\DieRoller.Tests\DieRoller.Tests.xproj", "{3DD7AFAE-25AE-4C4D-861A-A5915576989E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GameLibrary", "src\GameLibrary\GameLibrary.xproj", "{C44ACE34-8856-4D65-9CC5-63BD5F49CD30}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GameConsole", "src\GameConsole\GameConsole.xproj", "{A517240D-E19A-421A-9AB4-267B07A4A850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FCF90CF-91B2-4A35-A7A8-B6FB61EA9BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCF90CF-91B2-4A35-A7A8-B6FB61EA9BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCF90CF-91B2-4A35-A7A8-B6FB61EA9BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCF90CF-91B2-4A35-A7A8-B6FB61EA9BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD7AFAE-25AE-4C4D-861A-A5915576989E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD7AFAE-25AE-4C4D-861A-A5915576989E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD7AFAE-25AE-4C4D-861A-A5915576989E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD7AFAE-25AE-4C4D-861A-A5915576989E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44ACE34-8856-4D65-9CC5-63BD5F49CD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44ACE34-8856-4D65-9CC5-63BD5F49CD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44ACE34-8856-4D65-9CC5-63BD5F49CD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44ACE34-8856-4D65-9CC5-63BD5F49CD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A517240D-E19A-421A-9AB4-267B07A4A850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A517240D-E19A-421A-9AB4-267B07A4A850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A517240D-E19A-421A-9AB4-267B07A4A850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A517240D-E19A-421A-9AB4-267B07A4A850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FCF90CF-91B2-4A35-A7A8-B6FB61EA9BA2} = {EF85827B-9A07-4588-B9D7-F50624BDB03D}
+		{3DD7AFAE-25AE-4C4D-861A-A5915576989E} = {EF85827B-9A07-4588-B9D7-F50624BDB03D}
+		{C44ACE34-8856-4D65-9CC5-63BD5F49CD30} = {EF85827B-9A07-4588-B9D7-F50624BDB03D}
+		{A517240D-E19A-421A-9AB4-267B07A4A850} = {EF85827B-9A07-4588-B9D7-F50624BDB03D}
+	EndGlobalSection
+EndGlobal
